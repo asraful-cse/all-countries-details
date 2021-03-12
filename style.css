@@ -1,0 +1,40 @@
+#countries{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 30px;
+
+}
+.country {
+    border: 1px solid greenyellow;
+    border-radius: 14px;
+    background-color: #2e3524db;
+    padding: 4px;
+    text-align: center;
+    width: 233px;
+    text-transform: uppercase;
+}
+.country-name {
+    font-size: 26px;
+    color: #d3c5d4;
+}
+
+.capital-name {
+    font-size: 15px;
+    color: rgb(219 230 253);
+    text-transform: uppercase;
+}
+
+#countryDetail img {
+    max-width: 250px;
+  
+}
+#countryDetail {
+    border: 1px solid #202C85;
+    border-radius: 40px;
+    padding: 6px;
+    text-align: center;
+    width: 350px;
+    margin-left: 451px;
+    background-color: #b5b395;
+    margin-bottom: 55px;
+}
